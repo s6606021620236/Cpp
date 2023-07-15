@@ -10,8 +10,5 @@ int main()
     cout <<"#      "<< endl;
     cout <<" ######"<< endl;
 
-
-
-
-return (0)
+return (0);
 }
