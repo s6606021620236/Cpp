@@ -48,7 +48,7 @@ int main()
 	} 
 
 	else if (bmi>40)  {
-	cout << "Obese Class II" << endl;
+	cout << "Obese Class III" << endl;
 	} 
 
 
