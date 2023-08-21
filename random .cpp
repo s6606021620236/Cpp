@@ -15,7 +15,7 @@ int main ()
 	cout << "Input score "<< i << ": ";
 	cin  >> score ;
 	sum += score;
-	if (max <= score)
+	if (max < score)
 	max = score;
 	}
 	avg = sum/r; 
