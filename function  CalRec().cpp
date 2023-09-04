@@ -20,7 +20,7 @@ int main(){
 	cout << "Exit" << endl;
 	else 
 	cout << "Wrong menu" << endl;
-	}while (ch == 3);
+	}while (ch != '3');
 
 	return (0);
 }
