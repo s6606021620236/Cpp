@@ -10,7 +10,7 @@ int checkNum(int n, int random);
 int main() {
     int n = 0, random = 0, count = 0;
     srand(time(NULL));
-    random = 1 + rand() % 10;
+    random = 1 + rand() % 9;
     cout << "### Welcome to guessing number game ###\n";
     cout << "Secret number has been chosen\n";
     
