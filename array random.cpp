@@ -17,7 +17,7 @@ int main()
 
     for (int i = 0; i < 10; i++)
     {
-        cout <<"    " << i << "    " << random[i] << "\t";
+        cout <<"    " << i << "    " << random[i] << "    ";
         for (int j = 0; j < random[i]; j++)
         {
             cout << '*';
