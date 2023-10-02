@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+void display(int num[3][3],string name[3]);
 int main(){ 
 	int num[3][3] ;
 	string name[3];
@@ -13,8 +14,14 @@ int main(){
 			cout <<"Enter Score [" << i+1 <<"]["<< j+1 <<"] :";
 			cin >> num [i][j];
 		}
-		
 	}
+	display(num,name);
+	system("pause");
+	return 0;
+}
+	
+
+void display(int num[3][3],string name[3]){
 	cout <<"Show Score" <<endl;	
 	cout <<"---------------------------------\n" ;
 	cout <<"Student\tMath\tScience\tEnglish\n";
@@ -26,9 +33,5 @@ int main(){
 		}
 		cout << endl;
 	}
-
-
-	system("pause");
-	return 0;
+	
 }
-
